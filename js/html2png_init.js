@@ -19,12 +19,10 @@ $(document).ready(function(){
 
 				//var canvas = $('body').html2canvas([ $(this).get(3) ]);
 					canvas = $("canvas")[0]
-					canvas.width = canvas.width;
-				
+					canvas.width = canvas.width;				
 										
 					canvas = $("canvas")[1]
-					canvas.width = canvas.width;
-				
+					canvas.width = canvas.width;				
 
 					var img = new Image();
 					img.src = $("canvas")[3].toDataURL('image/png');

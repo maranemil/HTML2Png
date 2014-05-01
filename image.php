@@ -263,8 +263,7 @@
 		<style>
 			body { background: #dddddd }
 		</style>
-		
-	
+			
 	</body>
 </html>
 
