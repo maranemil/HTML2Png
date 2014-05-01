@@ -259,6 +259,11 @@
 			<canvas id="cvs2" height="0" width="0"></canvas>
 			<canvas id="cvs3" height="0" width="0"></canvas>
 		</div> 
+		
+		<style>
+			body { background: #dddddd }
+		</style>
+		
 	
 	</body>
 </html>
