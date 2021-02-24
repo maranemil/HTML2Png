@@ -5,7 +5,7 @@
 
   Released under MIT License
 */
-var h2cSelector, h2cOptions;
+let h2cSelector, h2cOptions;
 (function(document, window) {
 
     /*var scrStart = '<script type="text/javascript" src="', scrEnd = '"></script>';
