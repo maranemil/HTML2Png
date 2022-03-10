@@ -6,7 +6,7 @@
   Released under MIT License
 */
 let h2cSelector, h2cOptions;
-(function(document, window) {
+(function (document, window) {
 
     /*var scrStart = '<script type="text/javascript" src="', scrEnd = '"></script>';
     document.write(scrStart + '../js/jquery-1.7.1.js' + scrEnd);
@@ -15,17 +15,17 @@ let h2cSelector, h2cOptions;
         document.write(scrStart + '../js/' + html2canvas[i] + '.js' + scrEnd);
     }*/
 
-    window.onload = function() {
-        
+    window.onload = function () {
+
         h2cSelector = [document.body];
-        
+
         if (window.setUp) {
             window.setUp();
         }
 
-        setTimeout(function() {
-           
-			$(h2cSelector).html2canvas({
+        setTimeout(function () {
+
+            $(h2cSelector).html2canvas({
                 flashcanvas: "flashcanvas.min.js",
                 logging: true,
                 profile: true,
